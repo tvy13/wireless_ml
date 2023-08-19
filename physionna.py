@@ -9,7 +9,8 @@ except ImportError as e:
     import os
     os.system("pip install sionna")
     import sionna
-%matplotlib inline
+
+#just erased some packages and import pltlib
 import matplotlib.pyplot as plt
 
 
